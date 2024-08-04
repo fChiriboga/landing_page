@@ -1,0 +1,198 @@
+/* Styles for whole web page */
+
+body {
+   font-family: Roboto, sans-serif; 
+   margin: 0;
+   display: flex;
+   flex-direction: column;
+   height: 100vh;
+}
+
+/* Styles for hero section */
+
+.hero {
+    background-color: #1f2937;
+    padding: 0 200px 100px 200px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.links, a {
+    list-style: none;
+    text-decoration: none;
+    color: #e5e7eb;
+    display: flex;
+    gap: 16px;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+}
+
+.left p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 8px;
+    border-width: 0;
+    padding: 8px 25px;
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.image {
+    background-color: #e5e7eb80;
+    color: #f9faf8;
+    width: 500px;
+    height: 200px;
+    text-align: center;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Styles for random information section */
+
+.information-section {
+    margin-bottom: 100px;
+}
+
+.information-title {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin: 30px;
+}
+
+.information-box {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+
+.box {
+    max-width: 150px;
+}
+
+.image-box {
+    width: 150px;
+    height: 150px;
+    border-style: solid;
+    border-color: #3882f6;
+    border-width: 3px;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* Styles for quote section */
+
+.quote-background {
+    background-color: #e5e7eb;
+}
+
+.quote-section {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+}
+.citation {
+    font-size: 26px;
+    font-weight: bold;
+    display: flex;
+    justify-content: flex-end;
+}
+
+/* Styles for sign up banner */
+
+.signup-banner {
+    background-color: #3882f6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 90px;
+}
+
+.signup-text {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-text h2, p {
+    color: #f9faf8;
+    padding: 10px 0;
+}
+
+.signup-text h2 {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.signup-text p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+.signup-button button {
+    background-color: #3882f6;
+    border-color: #f9faf8;
+    border-radius: 8px;
+    border-width: 2px;
+    border-style: solid;
+    padding: 8px 25px;
+    color:#f9faf8;
+    display: flex;
+}
+
+/* styles for footer */
+
+.footer {
+    background-color: #1f2937;
+    color:#f9faf8;
+    text-align: center;
+    padding: 30px;
+}
